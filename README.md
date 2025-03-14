@@ -35,8 +35,34 @@ resnet-cifar10-classification-5M-params
 
 ## **Installation & Setup**
 
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/igopalakrishna/resnet-cifar10-classification-5M-params.git
+cd resnet-cifar10-classification-5M-params
+```
+
+### **2. Open in Google Colab**
+Instead of running locally, you can upload the `.ipynb` file to **Google Colab** and execute the notebook.
+
+1. **Download the Jupyter Notebook (`.ipynb`) file** from the repository.
+2. Go to [Google Colab](https://colab.research.google.com/).
+3. Click on **Upload Notebook** and select the `.ipynb` file.
+4. Run all cells to train and evaluate the model.
+
 ---
 
+## **Training Results**
+- **Final Training Accuracy:** `98.81%`
+- **Final Validation Accuracy:** `93.74%`
+- **Final Validation Loss:** `0.2471`
+
+### **Training & Validation Graphs**
+#### **Training Loss & Validation Loss**
+![Training Loss](loss.png)  
+
+#### **Training Accuracy & Validation Accuracy**
+![Training Accuracy](accuracy.png)
+---
 ## **Dataset**
 We use the **CIFAR-10 dataset**, which consists of **60,000 32×32 color images** in **10 classes**:
 
