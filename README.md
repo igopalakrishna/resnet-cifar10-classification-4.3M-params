@@ -1,4 +1,4 @@
-# ResNet-18 CIFAR-10 Image Classification (5M Params)
+# ResNet-18 CIFAR-10 Image Classification (4.3M Params ONLY!)
 
 A deep learning project implementing **ResNet-18** for **CIFAR-10 image classification** using **PyTorch**.  
 The model is trained **from scratch**, keeping the number of parameters **under 5 million**, and achieves **94%+ validation accuracy**.  
