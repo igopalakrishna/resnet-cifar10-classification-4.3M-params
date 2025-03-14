@@ -24,6 +24,7 @@ resnet-cifar10-classification-5M-params
 │── README.md              # Project documentation
 │── readme.html            # Additional documentation (HTML format)
 │── DL_V2_100epochs.ipynb  # Jupyter Notebook for training and evaluation
+│── submission_modified1_v2.csv  # Model predictions submission file
 ├── batches.meta
 ├── cifar_test_nolabel.pkl
 ├── test_batch
