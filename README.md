@@ -23,6 +23,7 @@ resnet-cifar10-classification-5M-params
 │── .gitattributes         # Git LFS settings
 │── README.md              # Project documentation
 │── readme.html            # Additional documentation (HTML format)
+│── DL_V2_100epochs.ipynb  # Jupyter Notebook for training and evaluation
 ├── batches.meta
 ├── cifar_test_nolabel.pkl
 ├── test_batch
@@ -31,6 +32,9 @@ resnet-cifar10-classification-5M-params
 ├── data_batch_3
 ├── data_batch_4
 ├── data_batch_5
+│── images/                # Folder containing training graphs
+    ├── loss.png           # Training & Validation Loss Graph
+    ├── accuracy.png       # Training & Validation Accuracy Graph
 ```
 
 ## **Installation & Setup**
