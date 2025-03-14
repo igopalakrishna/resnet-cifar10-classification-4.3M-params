@@ -31,3 +31,72 @@ resnet-cifar10-classification-5M-params
 ├── data_batch_3
 ├── data_batch_4
 ├── data_batch_5
+```
+
+## **Installation & Setup**
+
+---
+
+## **Dataset**
+We use the **CIFAR-10 dataset**, which consists of **60,000 32×32 color images** in **10 classes**:
+
+- ✈️ Airplane  
+- 🚗 Automobile  
+- 🐦 Bird  
+- 🐱 Cat  
+- 🦤 Deer  
+- 🐶 Dog  
+- 🐸 Frog  
+- 🐎 Horse  
+- 🚢 Ship  
+- 🚚 Truck  
+
+The dataset files are **directly in the root directory**:
+```plaintext
+batches.meta
+cifar_test_nolabel.pkl
+test_batch
+data_batch_1
+data_batch_2
+data_batch_3
+data_batch_4
+data_batch_5
+```
+Dataset is automatically downloaded via `torchvision.datasets.CIFAR10`.
+
+---
+
+## **Next Steps**
+- **Experiment with deeper ResNet models (ResNet-34, ResNet-50)**
+- **Implement advanced regularization (Dropout, CutMix, Mixup)**
+- **Deploy the model using Flask or FastAPI for real-time predictions**
+- **Fine-tune on CIFAR-100 for a more challenging task**
+
+---
+
+## 💡 **References**
+- [ResNet Paper (He et al., 2015)](https://arxiv.org/abs/1512.03385)
+- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
+- [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
+
+---
+
+## **Contributing**
+Contributions are welcome!  
+If you'd like to improve the model or add new features, feel free to **open an issue or submit a pull request**.
+
+---
+
+## **License**
+This project is licensed under the **MIT License**.
+
+---
+
+## **Show Support**
+If you found this project useful, **give it a star ⭐ on GitHub!**  
+Happy coding! 
+
+---
+
+   
+
