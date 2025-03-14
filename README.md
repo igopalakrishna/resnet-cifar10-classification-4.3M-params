@@ -103,7 +103,7 @@ Dataset is automatically downloaded via `torchvision.datasets.CIFAR10`.
 
 ---
 
-## 💡 **References**
+## **References**
 - [ResNet Paper (He et al., 2015)](https://arxiv.org/abs/1512.03385)
 - [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
 - [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
