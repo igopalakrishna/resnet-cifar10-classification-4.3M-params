@@ -58,10 +58,13 @@ Instead of running locally, you can upload the `.ipynb` file to **Google Colab**
 
 ### **Training & Validation Graphs**
 #### **Training Loss & Validation Loss**
-![Training Loss](loss.png)  
+![Training Loss](images/loss.png)  
 
-#### **Training Accuracy & Validation Accuracy**
-![Training Accuracy](accuracy.png)
+### **Training Accuracy & Validation Accuracy**
+
+![Training Accuracy](images/accuracy.png)
+
+
 ---
 ## **Dataset**
 We use the **CIFAR-10 dataset**, which consists of **60,000 32×32 color images** in **10 classes**:
